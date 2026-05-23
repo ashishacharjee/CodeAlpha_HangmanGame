@@ -166,7 +166,7 @@ def show_status(wrong, max_lives, guessed, word, category, difficulty, hint_used
 
 def play_round(scores):
     print("\n" + "═" * 45)
-    print("           HANGMAN  —  CodeAlpha")
+    print("           HANGMAN ")
     print("═" * 45)
 
     category  = choose_category()
